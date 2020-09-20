@@ -1,7 +1,9 @@
 const data = {
     "userData":[
         {
-            "first":"Liam", "last": "Chalk",
+            id: 1,
+            "name":"Liam Chalk",
+            checked: false,
             "movies":[
                 "Avatar",
                 "Shrek",
@@ -22,12 +24,15 @@ const data = {
                 "Congo",
                 "Enough Said",
                 "Closed Curtain",
+                "Scott-Pilgrim",
                 "Outbreak"
             ]
         },
     
         {
-            "first":"Hannah", "last": "Han",
+            id: 2,
+            "name":"Hannah Han",
+            checked: false,
             "movies":[
                 "Star-Wars",
                 "Finding Nemo",
@@ -49,9 +54,40 @@ const data = {
                 "Dredd",
                 "The Road", 
                 "Snowpiercer",
+                "Scott-Pilgrim",
                 "The Great Gatsby"
             ]
         },
+
+        {
+            id: 1,
+            "name":"John Boyle",
+            checked: false,
+            "movies":[
+                "Avatar",
+                "FootLoose",
+                "Maniac",
+                "Gone Girl",
+                "Thor",
+                "Sleeping Beauty",
+                "Palo Alto",
+                "The Master",
+                "Im thinking of ending things",
+                "The Rescuers",
+                "Scott-Pilgrim",
+                "Star-Wars",
+                "Finding Nemo",
+                "Mega Mind",
+                "Neighbours",
+                "Ozark",
+                "Branded",
+                "Congo",
+                "Lucky",
+                "Black Swan",
+                "Outbreak"
+            ]
+        },
+        
     ]
 }
 
